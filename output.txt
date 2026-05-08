@@ -1,0 +1,17 @@
+AI Fake News Detector - Run Output
+=================================
+
+Status: Application is running successfully.
+Local URL: http://127.0.0.1:5000
+Alternative URL: http://localhost:5000
+Health Check: HTTP 200
+
+Demo Admin Login
+----------------
+Email: admin@demo.com
+Password: admin123
+
+Notes
+-----
+- If browser does not open, ensure terminal is still running: python app.py
+- TensorFlow was skipped for Python 3.14 compatibility; core app features work.

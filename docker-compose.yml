@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  fake-news-app:
+    build: .
+    container_name: fake-news-detector
+    ports:
+      - "5000:5000"
+    env_file:
+      - .env
+    volumes:
+      - ./database:/app/database
+      - ./models:/app/models
+      - ./data:/app/data
+    restart: unless-stopped
