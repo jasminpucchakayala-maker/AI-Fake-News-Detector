@@ -16,7 +16,7 @@ A full-stack, resume-ready AI Fake News Detection platform with:
 
 ---
 
- 1) Project Structure
+  Project Structure
 
 ```text
 fake-news/
